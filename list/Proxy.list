@@ -1,141 +1,134 @@
-# IP段匹配
-IP-CIDR,142.171.133.131/32,no-resolve
-IP-CIDR,103.115.43.2/32,no-resolve
-IP-CIDR,104.236.69.0/24,no-resolve
-IP-CIDR,95.161.76.0/24,no-resolve
-IP-CIDR,142.251.215.0/24,no-resolve
+# ForceKorea.list 内容建议 (纯规则，无策略组)
 
-# 国外DNS
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-DOMAIN-SUFFIX,dot.sb
-DOMAIN-SUFFIX,dns.umbrella.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,doh.dns.sb
-DOMAIN-SUFFIX,doh.opendns.com
-DOMAIN-SUFFIX,dns.quad9.net
-DOMAIN-SUFFIX,hk-hkg.doh.sb
-
-# 其他网站
-DOMAIN-SUFFIX,polymarket.com
-DOMAIN-SUFFIX,cacapex.com
-DOMAIN-SUFFIX,1lib.sk
-DOMAIN-SUFFIX,6bcloud.top
-DOMAIN-SUFFIX,viptwo.top
-DOMAIN-SUFFIX,followme.com
-DOMAIN-SUFFIX,followme.ceo
-DOMAIN-SUFFIX,whatsmydns.me
-DOMAIN-SUFFIX,hostloc.net
-DOMAIN-SUFFIX,tmgm.com
-DOMAIN-SUFFIX,plexapp.com
-DOMAIN-SUFFIX,plexmediaserver.com
-DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,ip111.cn
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,ip-score.com
-DOMAIN-SUFFIX,dnsleaktest.com
-DOMAIN-SUFFIX,asiassn.com
-DOMAIN-SUFFIX,ipleak.net
+# --- 网络测试/IP查询类 ---
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,ipw.cn
+DOMAIN-SUFFIX,speedcheck.org
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speedtest.cn
+# DOMAIN-SUFFIX,ustc.edu.cn # 通常是国内教育网，不建议强制国外
+DOMAIN-SUFFIX,dnscheck.tools
+DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,browserleaks.org
 DOMAIN-SUFFIX,browserleaks.net
-DOMAIN-SUFFIX,surfsharkdns.com
-DOMAIN-SUFFIX,llgjc1.com
-DOMAIN-SUFFIX,qichiyu.com
-# DOMAIN-SUFFIX,groq.com
-# DOMAIN-SUFFIX,difyai.com
-DOMAIN-SUFFIX,hsy88.org
-DOMAIN-SUFFIX,xn--mes358acgm99l.com
-
-DOMAIN-SUFFIX,extrabux.com
-DOMAIN-SUFFIX,wallvpn.com
-DOMAIN-SUFFIX,pig.ws
-
-
-DOMAIN-SUFFIX,stotik.com
-DOMAIN-SUFFIX,streetfighter.com
-DOMAIN-SUFFIX,capcom.com
-DOMAIN-SUFFIX,fcdn.sk
-DOMAIN-SUFFIX,kooink.com
-DOMAIN-SUFFIX,nodeseek.com
-DOMAIN-SUFFIX,socialchain.app
-DOMAIN-SUFFIX,onesignal.com
-
-
-DOMAIN-SUFFIX,kjfx.cc
-
-DOMAIN-SUFFIX,hlive.io
-DOMAIN-SUFFIX,ndmdhs.com
-DOMAIN-SUFFIX,anygate.vip
-DOMAIN-SUFFIX,yfsp.tv
-DOMAIN-SUFFIX,bitwayeat.com
-DOMAIN-SUFFIX,etcbbi.xyz
-DOMAIN-SUFFIX,etcbbf.xyz
-DOMAIN-SUFFIX,etcbbj.xyz
-DOMAIN-SUFFIX,etcbbi.xyz
-DOMAIN-SUFFIX,etcbbh.xyz
-DOMAIN-SUFFIX,etcbbf.xyz
-DOMAIN-SUFFIX,etcbbg.xyz
-DOMAIN-SUFFIX,bugsnag.com
-DOMAIN-SUFFIX,pipecdn.vip
-DOMAIN-SUFFIX,wyav.tv
-DOMAIN-SUFFIX,tfboyaac.com
-DOMAIN-SUFFIX,tfboyaab.com
-DOMAIN-SUFFIX,aiyifan.tv
-DOMAIN-SUFFIX,tfboyaaa.com
-
-DOMAIN-SUFFIX,canva.com
-
-DOMAIN-SUFFIX,waytogone.com
-DOMAIN-SUFFIX,timeprecei.com
-DOMAIN-SUFFIX,etcbbb.xyz
-DOMAIN-SUFFIX,tfbgbbb.com
-DOMAIN-SUFFIX,tfbgaaa.com
-DOMAIN-SUFFIX,etcbba.xyz
-DOMAIN-SUFFIX,tfboyaae.com
-DOMAIN-SUFFIX,tfboyaad.com
-
-DOMAIN-SUFFIX,polivera.ai
-DOMAIN-SUFFIX,asiassn.com
-DOMAIN-SUFFIX,mmcks.top
-DOMAIN-SUFFIX,needay.xyz
-DOMAIN-SUFFIX,mzzxuh.com
-DOMAIN-SUFFIX,lianjiasub.work
-DOMAIN-SUFFIX,muniucloud.pro
-DOMAIN-SUFFIX,kuajing.uk
-DOMAIN-SUFFIX,metacubex.one
-DOMAIN-SUFFIX,xiaoxintv.cc
-DOMAIN-SUFFIX,69yun.top
-DOMAIN-SUFFIX,nivodi.com
-DOMAIN-SUFFIX,steamcommunity.com
-# DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,abcproxy.com
-DOMAIN-SUFFIX,piliapp.com
-DOMAIN-SUFFIX,meijutt.cc
-DOMAIN-SUFFIX,piaohua.com
-DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,dnsleaktest.com
 DOMAIN-SUFFIX,browserscan.net
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,ip-score.com
+DOMAIN-SUFFIX,incolumitas.com
+DOMAIN-SUFFIX,addr.tools
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,ip125.com
+DOMAIN-SUFFIX,skk.moe
+DOMAIN-SUFFIX,ip111.cn
+DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,ipinfo.io
 DOMAIN-SUFFIX,ipify.org
-DOMAIN-SUFFIX,dnscheck.tools
 DOMAIN-SUFFIX,arin.net
-DOMAIN-SUFFIX,null-addr.com
+
+# --- 特定服务/其他网站 ---
+DOMAIN-SUFFIX,vultr.com
+DOMAIN-SUFFIX,surfshark.com
+DOMAIN-SUFFIX,surfsharkdns.com # Surfshark 相关
+DOMAIN-SUFFIX,888005.xyz # 未知，根据需要保留
+DOMAIN-SUFFIX,null-addr.com # 空地址测试相关
 DOMAIN-SUFFIX,null-addr.net
 DOMAIN-SUFFIX,null-addr.org
 DOMAIN-SUFFIX,null-addr.biz
 DOMAIN-SUFFIX,null-addr.info
-DOMAIN-SUFFIX,addr.tools
-DOMAIN-SUFFIX,bulianglin.com
-DOMAIN-SUFFIX,coincola.com
-DOMAIN-SUFFIX,coincolacdn.com
-DOMAIN-SUFFIX,colaotc.com
+DOMAIN-SUFFIX,polymarket.com
+DOMAIN-SUFFIX,cacapex.com
+DOMAIN-SUFFIX,1lib.sk # Z-Library 相关
+DOMAIN-SUFFIX,6bcloud.top # 未知
+DOMAIN-SUFFIX,viptwo.top # 未知
+DOMAIN-SUFFIX,followme.com
+DOMAIN-SUFFIX,followme.ceo
+DOMAIN-SUFFIX,whatsmydns.me
+DOMAIN-SUFFIX,hostloc.net # HostLoc论坛
+DOMAIN-SUFFIX,tmgm.com # 交易平台
+DOMAIN-SUFFIX,plexapp.com # Plex
+DOMAIN-SUFFIX,plexmediaserver.com # Plex
+DOMAIN-SUFFIX,plex.tv # Plex
+DOMAIN-SUFFIX,asiassn.com # 未知
+DOMAIN-SUFFIX,llgjc1.com # 未知
+DOMAIN-SUFFIX,qichiyu.com # 未知
+DOMAIN-SUFFIX,hsy88.org # 未知
+DOMAIN-SUFFIX,xn--mes358acgm99l.com # IDN域名
+DOMAIN-SUFFIX,extrabux.com # 返利
+DOMAIN-SUFFIX,wallvpn.com # VPN
+DOMAIN-SUFFIX,pig.ws # 未知
+DOMAIN-SUFFIX,stotik.com # 未知
+DOMAIN-SUFFIX,streetfighter.com # 游戏
+DOMAIN-SUFFIX,capcom.com # 游戏
+DOMAIN-SUFFIX,fcdn.sk # 未知
+DOMAIN-SUFFIX,kooink.com # 未知
+DOMAIN-SUFFIX,nodeseek.com # 论坛
+DOMAIN-SUFFIX,socialchain.app # 未知
+DOMAIN-SUFFIX,onesignal.com # 推送服务
+DOMAIN-SUFFIX,kjfx.cc # 未知
+DOMAIN-SUFFIX,hlive.io # 未知
+DOMAIN-SUFFIX,ndmdhs.com # 未知
+DOMAIN-SUFFIX,anygate.vip # 未知
+DOMAIN-SUFFIX,yfsp.tv # 未知
+DOMAIN-SUFFIX,bitwayeat.com # 未知
+DOMAIN-SUFFIX,etcbbi.xyz # 未知
+DOMAIN-SUFFIX,etcbbf.xyz # 未知
+DOMAIN-SUFFIX,etcbbj.xyz # 未知
+DOMAIN-SUFFIX,etcbbh.xyz # 未知
+DOMAIN-SUFFIX,etcbbg.xyz # 未知
+DOMAIN-SUFFIX,bugsnag.com # 错误监控
+DOMAIN-SUFFIX,pipecdn.vip # 未知
+DOMAIN-SUFFIX,wyav.tv # 未知
+DOMAIN-SUFFIX,tfboyaac.com # 未知
+DOMAIN-SUFFIX,tfboyaab.com # 未知
+DOMAIN-SUFFIX,aiyifan.tv # 未知
+DOMAIN-SUFFIX,tfboyaaa.com # 未知
+DOMAIN-SUFFIX,canva.com # Canva 设计
+DOMAIN-SUFFIX,waytogone.com # 未知
+DOMAIN-SUFFIX,timeprecei.com # 未知
+DOMAIN-SUFFIX,etcbbb.xyz # 未知
+DOMAIN-SUFFIX,tfbgbbb.com # 未知
+DOMAIN-SUFFIX,tfbgaaa.com # 未知
+DOMAIN-SUFFIX,etcbba.xyz # 未知
+DOMAIN-SUFFIX,tfboyaae.com # 未知
+DOMAIN-SUFFIX,tfboyaad.com # 未知
+DOMAIN-SUFFIX,polivera.ai # AI相关，可能与AI规则冲突，根据需要决定是否放这里
+DOMAIN-SUFFIX,mmcks.top # 未知
+DOMAIN-SUFFIX,needay.xyz # 未知
+DOMAIN-SUFFIX,mzzxuh.com # 未知
+DOMAIN-SUFFIX,lianjiasub.work # 未知
+DOMAIN-SUFFIX,muniucloud.pro # 未知
+DOMAIN-SUFFIX,kuajing.uk # 未知
+DOMAIN-SUFFIX,metacubex.one # 未知
+DOMAIN-SUFFIX,xiaoxintv.cc # 未知
+DOMAIN-SUFFIX,69yun.top # 未知
+DOMAIN-SUFFIX,nivodi.com # 未知
+DOMAIN-SUFFIX,steamcommunity.com # Steam社区，可能与游戏规则冲突
+# DOMAIN-SUFFIX,steampowered.com # Steam主站，通常不需要强制特定线路
+DOMAIN-SUFFIX,abcproxy.com # 代理相关
+DOMAIN-SUFFIX,piliapp.com # 工具网站
+DOMAIN-SUFFIX,meijutt.cc # 美剧资源
+DOMAIN-SUFFIX,piaohua.com # 影视资源
+DOMAIN-SUFFIX,bulianglin.com # 不良林？
+DOMAIN-SUFFIX,coincola.com # 加密货币
+DOMAIN-SUFFIX,coincolacdn.com # 加密货币
+DOMAIN-SUFFIX,colaotc.com # 加密货币
 
-IP-CIDR,8.8.8.8/32,no-resolve
-IP-CIDR,8.8.4.4/32,no-resolve
-IP-CIDR,1.1.1.1/32,no-resolve
-IP-CIDR,1.0.0.1/32,no-resolve
-IP-CIDR,185.222.222.222/32,no-resolve
-IP-CIDR,208.67.222.222/32,no-resolve
-IP-CIDR,208.67.220.220/32,no-resolve
-IP-CIDR,142.250.0.0/16,no-resolve
+# --- 你提供的特定 IP-CIDR (如果确定要走韩国) ---
+# IP-CIDR,142.171.133.131/32,no-resolve # 需要确认此IP用途
+# IP-CIDR,103.115.43.2/32,no-resolve    # 需要确认此IP用途
+# IP-CIDR,104.236.69.0/24,no-resolve   # DigitalOcean? 需要确认
+# IP-CIDR,95.161.76.0/24,no-resolve    # 需要确认此IP用途
+# IP-CIDR,142.251.215.0/24,no-resolve # Google IP段, 强烈建议不放这里，会和Google/YouTube规则冲突
+# IP-CIDR,8.8.8.8/32,no-resolve       # Google DNS, 通常不需要强制线路
+# IP-CIDR,8.8.4.4/32,no-resolve       # Google DNS, 通常不需要强制线路
+# IP-CIDR,1.1.1.1/32,no-resolve       # Cloudflare DNS
+# IP-CIDR,1.0.0.1/32,no-resolve       # Cloudflare DNS
+# IP-CIDR,185.222.222.222/32,no-resolve # DNS.SB
+# IP-CIDR,208.67.222.222/32,no-resolve # OpenDNS
+# IP-CIDR,208.67.220.220/32,no-resolve # OpenDNS
+# IP-CIDR,142.250.0.0/16,no-resolve   # 大量Google IP, 强烈建议不放这里
+
+# 注意：上面IP-CIDR部分大部分被注释掉了，因为强制IP段容易产生冲突，除非你非常确定这些IP段必须走韩国。特别是Google的IP段，会严重干扰你之前的Google/YouTube线路设置。公共DNS通常也不需要强制走特定代理线路。
